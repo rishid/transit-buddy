@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd" >
+<log4j:configuration>
+	<appender name="file"
+		class="org.apache.log4j.RollingFileAppender">
+		<param name="maxFileSize" value="1000KB" />
+		<param name="maxBackupIndex" value="5" />
+		<param name="File" value="TransitServer-Info.log" />
+		<param name="threshold" value="info" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%d{ABSOLUTE} %5p %c{1}:%L - %m%n" />
+		</layout>
+	</appender>
+	<appender name="debugfile"
+		class="org.apache.log4j.RollingFileAppender">
+		<param name="maxFileSize" value="1000KB" />
+		<param name="maxBackupIndex" value="5" />
+		<param name="File" value="TransitServer-Debug.log" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%d{ABSOLUTE} %5p %c{1}:%L - %m%n" />
+		</layout>
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="LevelMin" value="debug" />
+			<param name="LevelMax" value="debug" />
+		</filter>
+	</appender>
+
+	<root>
+		<priority value="debug"></priority>
+		<appender-ref ref="debugfile" />
+		<appender-ref ref="file" />
+	</root>
+</log4j:configuration>

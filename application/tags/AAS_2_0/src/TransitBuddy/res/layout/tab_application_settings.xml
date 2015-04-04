@@ -1,0 +1,77 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_tab_info"
+    />
+    <TextView
+        android:id="@+id/username_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "20dp"
+        android:text="@string/username"
+    />
+    <EditText
+        android:id="@+id/username_entry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine = "true"
+        android:background="@android:drawable/editbox_background"
+    />
+    <TextView
+        android:id="@+id/password_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "5dp"
+        android:text="@string/password"
+    />
+    <EditText
+        android:id="@+id/password_entry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine = "true"
+        android:password = "true"
+        android:background="@android:drawable/editbox_background"
+    />
+    <RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+            <Button
+                android:id = "@+id/login_button"
+                android:layout_alignParentRight = "true"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text = "Login"
+            />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/vicinity_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:text="@string/vicinity"
+    />
+    <Spinner
+        android:id = "@+id/vicinities_spinner"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:prompt = "@string/select_one"
+    />
+    <TextView
+        android:id="@+id/etas_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "5dp"
+        android:text="@string/etas"
+    />
+    <Spinner
+        android:id = "@+id/etas_spinner"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:prompt = "@string/select_one"
+    />
+</LinearLayout>

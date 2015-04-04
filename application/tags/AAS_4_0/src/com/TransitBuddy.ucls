@@ -1,0 +1,107 @@
+<class-diagram version="1.0.1" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="9" corner="BOTTOM_RIGHT" language="java" name="com.transitbuddy.TransitBuddy.TransitBuddyApp" 
+    project="TransitBuddy" file="/TransitBuddy/src/com/transitbuddy/TransitBuddy/TransitBuddyApp.java" binary="false">    
+    <position x="1058" y="288" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="11" corner="BOTTOM_RIGHT" language="java" 
+    name="com.transitbuddy.Controllers.TransitSystemController.TransitSystemController" project="TransitBuddy" 
+    file="/TransitBuddy/src/com/transitbuddy/Controllers/TransitSystemController/TransitSystemController.java" 
+    binary="false">    
+    <position x="1436" y="258" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="12" corner="BOTTOM_RIGHT" language="java" 
+    name="com.transitbuddy.Controllers.TransitLineController.TransitLineController" project="TransitBuddy" 
+    file="/TransitBuddy/src/com/transitbuddy/Controllers/TransitLineController/TransitLineController.java" 
+    binary="false">    
+    <position x="1420" y="427" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="13" corner="BOTTOM_RIGHT" language="java" 
+    name="com.transitbuddy.Controllers.TransitInfoController.TransitInfoController" project="TransitBuddy" 
+    file="/TransitBuddy/src/com/transitbuddy/Controllers/TransitInfoController/TransitInfoController.java" 
+    binary="false">    
+    <position x="1389" y="568" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="16" corner="BOTTOM_RIGHT" language="java" 
+    name="com.transitbuddy.Controllers.TransitStopMapController.StopItemizedOverlay" project="TransitBuddy" 
+    file="/TransitBuddy/src/com/transitbuddy/Controllers/TransitStopMapController/StopItemizedOverlay.java" 
+    binary="false">    
+    <position x="1417" y="882" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="17" corner="BOTTOM_RIGHT" language="java" name="com.transitbuddy.ServerInterface.ServerInterface" 
+    project="TransitBuddy" file="/TransitBuddy/src/com/transitbuddy/ServerInterface/ServerInterface.java" binary="false">    
+    <position x="743" y="601" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="18" corner="BOTTOM_RIGHT" language="java" 
+    name="com.transitbuddy.Controllers.TransitStopMapController.TransitStopMapController" project="TransitBuddy" 
+    file="/TransitBuddy/src/com/transitbuddy/Controllers/TransitStopMapController/TransitStopMapController.java" 
+    binary="false">    
+    <position x="1393" y="703" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="19" corner="BOTTOM_RIGHT" language="java" name="com.transitbuddy.SystemSettings.TransitSettings" 
+    project="TransitBuddy" file="/TransitBuddy/src/com/transitbuddy/SystemSettings/TransitSettings.java" binary="false">    
+    <position x="1045" y="598" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="20" corner="BOTTOM_RIGHT" language="java" name="com.transitbuddy.Controllers.HomeController.HomeController" 
+    project="TransitBuddy" file="/TransitBuddy/src/com/transitbuddy/Controllers/HomeController/HomeController.java" 
+    binary="false">    
+    <position x="1441" y="96" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <association>    
+    <end type="SOURCE" nodeId="9" navigable="false">      
+      <attribute name="mSettings"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" nodeId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <end type="SOURCE" nodeId="9" navigable="false">      
+      <attribute name="mServer"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" nodeId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

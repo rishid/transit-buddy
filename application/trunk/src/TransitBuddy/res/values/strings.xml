@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Transit Buddy</string>
+    <string name="footer">Click and hold on to one of the Routes to show the available trips.</string>
+    <string name="city_prompt">Please select a city</string>
+    <string name="city">hi</string>
+    <string name="vicinity_prompt">Vicinity:</string>
+    <string name="eta_prompt">Number of ETAs to Display:</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    
+    <string name = "city_tab_info">
+        This is the City Settings tab.  From here, you may change the current 
+        city to which TransitBuddy is set.
+    </string>
+    <string name = "select_city">Please select a city:</string>
+    <string name = "select_one">Please select one:</string>
+    
+    <string name = "app_tab_info">
+        This is the Application Settings tab.  From here, you may change the 
+        size of the vicinity TransitBuddy uses when displaying a map, the number
+        of ETAs to display, or login to the server to save your settings.
+    </string>
+    <string name = "selected_city">Selected city: </string>
+    <string name = "vicinity">Vicinity: </string>
+    <string name = "etas">Number of ETAs to display:</string>
+    <string-array name = "city_array">
+        <item>MBTA - Boston, MA</item>
+        <item>MTA - New York, NY</item>
+        <item>CTA - Chicago, IL</item>
+    </string-array>
+    <string-array name = "etas_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name = "vicinity_array">
+        <item>0.5 Miles</item>
+        <item>1.0 Mile</item>
+        <item>1.5 Miles</item>
+    </string-array>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="title_prefix">Transit System: </string>
+</resources>
